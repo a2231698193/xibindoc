@@ -1,0 +1,31 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "全部笔记"
+  },
+  {
+    "type": "divider",
+    "dashed": true
+  },
+  {
+    "type": "dir",
+    "name": "frontend",
+    "label": "前端"
+  },
+  {
+    "type": "dir",
+    "name": "backend",
+    "label": "后端"
+  },
+  {
+    "type": "dir",
+    "name": "engineering",
+    "label": "工程化"
+  },
+  {
+    "type": "dir",
+    "name": "ai",
+    "label": "AI"
+  }
+]

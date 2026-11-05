@@ -1,0 +1,66 @@
+/**
+ * 主题定制入口
+ * 所有变量清单见 https://rspress.rs/zh/ui/vars
+ * 想改得更彻底时，再考虑 theme/index.tsx 里 wrap / eject 组件。
+ */
+
+:root {
+  /* 品牌色：换成你喜欢的颜色即可，下面几个是它的深浅变体 */
+  --rp-c-brand: #5b6cff;
+  --rp-c-brand-light: #7c8aff;
+  --rp-c-brand-lighter: #dfe3ff;
+  --rp-c-brand-dark: #4354e6;
+  --rp-c-brand-darker: #3342c4;
+  --rp-c-brand-tint: rgba(91, 108, 255, 0.12);
+
+  --rp-home-hero-secondary-color: var(--rp-c-brand);
+}
+
+/* 首页背景的柔和光晕（浅色） */
+html:not(.rp-dark) {
+  --rp-home-background-bg:
+    radial-gradient(
+      80% 60% at 100% 0%,
+      rgba(91, 108, 255, 0.22) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    radial-gradient(
+      60% 60% at 50% 0%,
+      rgba(140, 92, 255, 0.14) 0%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    radial-gradient(
+      90% 70% at 0% 0%,
+      rgba(64, 196, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0) 65%
+    );
+}
+
+/* 首页背景的柔和光晕（深色） */
+html.rp-dark {
+  --rp-home-background-bg:
+    radial-gradient(
+      80% 60% at 100% 0%,
+      rgba(91, 108, 255, 0.22) 0%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    radial-gradient(
+      60% 60% at 50% 0%,
+      rgba(140, 92, 255, 0.16) 0%,
+      rgba(0, 0, 0, 0) 60%
+    );
+}
+
+/* 正文阅读体验：稍宽一点的行距 + 更舒服的段落间距 */
+.rspress-doc {
+  line-height: 1.75;
+}
+
+.rspress-doc p + p {
+  margin-top: 0.85em;
+}
+
+/* 中文文档里表格和行内代码更紧凑一点 */
+.rspress-doc table {
+  font-size: 0.92em;
+}

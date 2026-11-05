@@ -18,7 +18,7 @@ pnpm dev
 ├── docs/                 文档内容（每个 .md 就是一个页面）
 │   ├── _nav.json         顶部导航
 │   ├── index.md          首页
-│   ├── notes/            技术笔记（逆向）
+│   ├── notes/            技术笔记（前端 / 后端 / 工程化 / 逆向 / AI）
 │   ├── guide/            本站使用说明
 │   └── public/           logo、favicon 等静态资源
 ├── theme/
@@ -30,7 +30,7 @@ pnpm dev
 
 ## 写一篇新笔记
 
-1. 在对应目录（如 `docs/notes/reverse/`）新建 `xxx.md`，首行写 `# 标题`；
+1. 在对应目录（如 `docs/notes/frontend/`）新建 `xxx.md`，首行写 `# 标题`；
 2. 把文件名加进同目录的 `_meta.json`（决定侧边栏顺序和是否显示）；
 3. 保存即可。
 

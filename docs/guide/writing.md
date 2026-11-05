@@ -10,24 +10,28 @@ docs
 ├── index.md             首页（frontmatter 里 pageType: home）
 ├── notes/               技术笔记
 │   ├── _meta.json       这一栏的侧边栏顺序
+│   ├── frontend/
+│   │   ├── _meta.json
+│   │   └── react-render-patterns.md   ->  /notes/frontend/react-render-patterns
 │   └── reverse/
 │       ├── _meta.json
-│       └── pe-basics.md   ->  /notes/reverse/pe-basics
+│       └── pe-basics.md               ->  /notes/reverse/pe-basics
 └── guide/               本指南
 ```
 
 ## 新增一篇笔记
 
-以「逆向 → 协议分析」为例：
+以「前端 → 性能优化」为例：
 
-1. 在 `docs/notes/reverse/` 下新建 `protocol-analysis.md`；
-2. 在第一行写标题 `# 协议分析`；
+1. 在 `docs/notes/frontend/` 下新建 `web-vitals.md`；
+2. 在第一行写标题 `# Web Vitals 实战`；
 3. 把文件名加进同目录的 `_meta.json`：
 
 ```json
 [
-  "pe-basics",
-  "protocol-analysis"
+  "react-render-patterns",
+  "css-layout-tricks",
+  "web-vitals"
 ]
 ```
 
@@ -40,13 +44,13 @@ docs
 
 ## 新增一个栏目
 
-比如想加「密码学」：
+比如想加「运维」：
 
-1. 建目录 `docs/notes/crypto/`，放 `_meta.json` 和内容；
+1. 建目录 `docs/notes/ops/`，放 `_meta.json` 和内容；
 2. 在 `docs/notes/_meta.json` 里加一项：
 
 ```json
-{ "type": "dir-section-header", "name": "crypto", "label": "密码学" }
+{ "type": "dir-section-header", "name": "ops", "label": "运维" }
 ```
 
 ## Frontmatter 常用字段

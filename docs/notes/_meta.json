@@ -10,7 +10,27 @@
   },
   {
     "type": "dir",
+    "name": "frontend",
+    "label": "前端"
+  },
+  {
+    "type": "dir",
+    "name": "backend",
+    "label": "后端"
+  },
+  {
+    "type": "dir",
+    "name": "engineering",
+    "label": "工程化"
+  },
+  {
+    "type": "dir",
     "name": "reverse",
     "label": "逆向"
+  },
+  {
+    "type": "dir",
+    "name": "ai",
+    "label": "AI"
   }
 ]

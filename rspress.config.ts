@@ -12,7 +12,7 @@ export default defineConfig({
   lang: 'zh',
   base,
   title: 'XiBin Docs',
-  description: '技术笔记与文档：逆向、二进制分析',
+  description: '技术笔记与文档：前端、后端、工程化、逆向、AI',
   icon: '/favicon.svg',
   logo: {
     light: '/logo-light.svg',

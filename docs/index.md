@@ -4,11 +4,11 @@ pageType: home
 hero:
   name: XiBin Docs
   text: 把散落的技术笔记，收拢成一个站点
-  tagline: 逆向 · 二进制分析 —— 用 Markdown 写，用 Rspress 发
+  tagline: 前端 · 后端 · 工程化 · 逆向 · AI —— 用 Markdown 写，用 Rspress 发
   actions:
     - theme: brand
       text: 开始阅读
-      link: /notes/reverse/
+      link: /notes/
     - theme: alt
       text: 怎么写文档
       link: /guide/
@@ -17,28 +17,28 @@ hero:
     alt: XiBin Docs
 
 features:
-  - title: PE 基础
-    details: 从节表、入口点、导入表开始，先搞清楚一个可执行文件到底长什么样。
-    icon: 📦
-    link: /notes/reverse/pe-basics
-  - title: 判断加壳
-    details: 节名、熵值、导入表规模、入口点位置——四条线索决定后面走静态还是运行时。
-    icon: 🔎
-    link: /notes/reverse/packer-detection
-  - title: 字符串定位
-    details: 不脱壳、不重建导入表，用界面文案反推代码位置的通用套路。
-    icon: 🎯
-    link: /notes/reverse/runtime-analysis
-  - title: 补丁工程
-    details: 三种粒度怎么选、特征码怎么取、多副本与指令缓存这些坑怎么避。
-    icon: 🔧
-    link: /notes/reverse/patching-principles
-  - title: 方法论
-    details: 先让程序跑起来、先找锚点、先证伪——决定效率的是顺序而不是技巧。
-    icon: 🧭
-    link: /notes/reverse/methodology
-  - title: 边界与合规
-    details: 哪些能写、哪些不能发，以及什么情况下分析才是正当的。
-    icon: ⚖️
-    link: /notes/reverse/scope-and-ethics
+  - title: 按主题归档
+    details: 前端、后端、工程化、逆向、AI——分类可以随时增减，加个目录就能扩出新栏目。
+    icon: 🗂
+    link: /notes/
+  - title: 毫秒级启动
+    details: 基于 Rsbuild / Rspack 的 Rust 工具链，改了 Markdown 立刻看到效果，写文档不打断思路。
+    icon: ⚡️
+    link: /guide/writing
+  - title: 中文全文搜索
+    details: 构建时自动生成搜索索引，内置拼音全拼与首字母搜索，中文内容也能搜得准。
+    icon: 🔍
+    link: /notes/
+  - title: MDX 组件能力
+    details: 在 Markdown 里直接写 Tabs、Steps、Callout 等组件，复杂文档也能排版得干净。
+    icon: 🧩
+    link: /guide/mdx
+  - title: 静态导出
+    details: 构建为纯静态 HTML，可部署到 GitHub Pages、Vercel、Netlify，零运维成本。
+    icon: 🚀
+    link: /guide/deploy
+  - title: AI 友好
+    details: 自动生成 llms.txt 与 Markdown 版本，方便大模型读取与索引，文档一次写好多处复用。
+    icon: 🤖
+    link: /guide/deploy
 ---

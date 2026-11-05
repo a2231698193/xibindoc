@@ -66,6 +66,6 @@ function add(a: number, b: number) {
 同站内用相对路径，Rspress 会做死链检查：
 
 ```md
-[PE 结构](./pe-basics.md)
-[方法论](./methodology.md)
+[渲染模式](./frontend/react-render-patterns.md)
+[PE 结构](./reverse/pe-basics.md)
 ```

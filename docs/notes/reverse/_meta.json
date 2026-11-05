@@ -19,7 +19,14 @@
     "label": "分析方法"
   },
   "runtime-analysis",
+  "patch-locating",
   "patching-principles",
+  "api-hooking",
+  {
+    "type": "section-header",
+    "label": "协议与密码"
+  },
+  "weak-crypto",
   {
     "type": "section-header",
     "label": "经验"

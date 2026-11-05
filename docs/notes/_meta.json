@@ -24,6 +24,13 @@
   },
   {
     "type": "dir",
+    "name": "linggan",
+    "label": "灵感画布消费",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
     "name": "ai",
     "label": "AI",
     "collapsible": true,

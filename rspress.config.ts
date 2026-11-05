@@ -19,13 +19,6 @@ export default defineConfig({
     dark: '/logo-dark.svg',
   },
   themeConfig: {
-    socialLinks: [
-      {
-        icon: 'github',
-        mode: 'link',
-        content: 'https://github.com/xibin',
-      },
-    ],
     lastUpdated: true,
     footer: {
       message:

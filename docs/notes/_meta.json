@@ -10,6 +10,13 @@
   },
   {
     "type": "dir",
+    "name": "frontend",
+    "label": "前端",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
     "name": "engineering",
     "label": "工程化",
     "collapsible": true,

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "逆向概览"
+  },
+  {
+    "type": "divider",
+    "dashed": true
+  },
+  {
+    "type": "section-header",
+    "label": "基础知识"
+  },
+  "pe-basics",
+  "packer-detection",
+  {
+    "type": "section-header",
+    "label": "分析方法"
+  },
+  "runtime-analysis",
+  "patching-principles",
+  {
+    "type": "section-header",
+    "label": "经验"
+  },
+  "methodology",
+  "scope-and-ethics"
+]

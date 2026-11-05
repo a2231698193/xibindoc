@@ -4,8 +4,8 @@
     "link": "/"
   },
   {
-    "text": "技术笔记",
-    "link": "/notes/",
+    "text": "逆向笔记",
+    "link": "/notes/reverse/",
     "activeMatch": "^/notes/"
   },
   {

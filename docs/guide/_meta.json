@@ -1,5 +1,14 @@
 [
   {
+    "type": "file",
+    "name": "index",
+    "label": "全部指南"
+  },
+  {
+    "type": "divider",
+    "dashed": true
+  },
+  {
     "type": "section-header",
     "label": "开始使用"
   },

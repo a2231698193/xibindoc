@@ -10,8 +10,8 @@
   },
   {
     "type": "dir",
-    "name": "frontend",
-    "label": "前端",
+    "name": "design",
+    "label": "设计",
     "collapsible": true,
     "collapsed": true
   },

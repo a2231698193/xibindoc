@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: XiBin Docs
   text: 把散落的技术笔记，收拢成一个站点
-  tagline: 前端 · 工程化 · 逆向 · AI —— 用 Markdown 写，用 Rspress 发
+  tagline: 设计 · 工程化 · 逆向 · AI —— 用 Markdown 写，用 Rspress 发
   actions:
     - theme: brand
       text: 开始阅读
@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 按主题归档
-    details: 前端、工程化、逆向、AI——分类可以随时增减，加个目录就能扩出新栏目。
+    details: 设计、工程化、逆向、AI——分类可以随时增减，加个目录就能扩出新栏目。
     icon: 🗂
     link: /notes/
   - title: 毫秒级启动
